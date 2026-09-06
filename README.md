@@ -1,4 +1,4 @@
-```markdown
+
 # 1Fi Marketplace
 
 A React Native / Expo implementation of the **1Fi Marketplace** experience within the Shop section, developed as part of the 1Fi SDE Intern assignment.
