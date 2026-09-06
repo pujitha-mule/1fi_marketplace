@@ -6,7 +6,7 @@ The implementation focuses on a clean, responsive mobile marketplace experience 
 
 ---
 
-## 📱 Project Overview
+## Project Overview
 
 The objective of this project is to implement the **1Fi Marketplace** section within the existing Shop experience while maintaining a visual style consistent with the 1Fi application.
 
@@ -27,7 +27,7 @@ The implementation intentionally focuses on the requested **1Fi Marketplace** sc
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 The deployed web version of the 1Fi Marketplace is available here:
 
@@ -38,7 +38,7 @@ The application can be opened directly in a web browser without requiring the de
 
 ---
 
-## ✨ Features
+## Features
 
 ### Shop Integration
 
@@ -121,7 +121,7 @@ The Continue Shopping action returns the user to the Shop section.
 
 ---
 
-## 🛍️ Included Products
+## Included Products
 
 The current marketplace catalogue contains representative products:
 
@@ -135,7 +135,7 @@ Product information is maintained separately from the UI rather than being direc
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The project separates presentation, navigation, data and service responsibilities.
 
@@ -163,7 +163,7 @@ The architecture is intentionally lightweight while maintaining separation of co
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 1fi-marketplace/
@@ -201,7 +201,7 @@ The architecture is intentionally lightweight while maintaining separation of co
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 
 Marketplace information is separated from the UI and retrieved through a mock service layer.
 
@@ -261,7 +261,7 @@ Separating data retrieval from the UI provides several benefits:
 
 ---
 
-## ⏳ Loading States
+##  Loading States
 
 Marketplace data is retrieved asynchronously.
 
@@ -271,7 +271,7 @@ The Product Details screen also handles asynchronous product retrieval independe
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 The application includes error handling for failed product retrieval.
 
@@ -291,7 +291,7 @@ This gives the Marketplace a defined behaviour when the catalogue contains no pr
 
 ---
 
-## 🔄 Pull to Refresh
+##  Pull to Refresh
 
 The Marketplace listing supports pull-to-refresh.
 
@@ -301,7 +301,7 @@ This is useful for a marketplace because product availability and pricing may ch
 
 ---
 
-## 🧭 Navigation Flow
+##  Navigation Flow
 
 The main user journey is:
 
@@ -342,7 +342,7 @@ This prevents users from reaching the confirmation stage with incomplete product
 
 ---
 
-## 🎨 UI / UX
+##  UI / UX
 
 The UI was designed to remain visually aligned with the 1Fi application style shown in the assignment and reference experience.
 
@@ -364,7 +364,7 @@ The implementation intentionally avoids redesigning the entire application and f
 
 ---
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The application uses React Native components and is designed for mobile form factors.
 
@@ -380,7 +380,7 @@ The Product Details screen is vertically scrollable so that product information,
 
 ---
 
-## 🧩 Technology Stack
+## Technology Stack
 
 ### Core
 
@@ -410,7 +410,7 @@ The Product Details screen is vertically scrollable so that product information,
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -424,7 +424,7 @@ Make sure the following are installed:
 
 ---
 
-## 📥 Installation
+## Installation
 
 Clone the repository:
 
@@ -446,7 +446,7 @@ npm install
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 Start the Expo development server:
 
@@ -475,7 +475,7 @@ Expo will display a QR code.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The primary flow can be tested using:
 
@@ -529,7 +529,7 @@ The flow can be repeated for all products in the marketplace catalogue.
 
 ---
 
-## 💳 EMI Scope
+## EMI Scope
 
 The EMI functionality implemented in this assignment is a product-selection experience.
 
@@ -544,7 +544,7 @@ The implementation does not process real financial transactions or connect to a 
 
 ---
 
-## 🔐 Data Handling
+## Data Handling
 
 The application uses mock marketplace data because a production marketplace backend was not provided as part of the assignment.
 
@@ -554,7 +554,7 @@ The project does not implement real financial transactions.
 
 ---
 
-## 🛒 Assignment Scope
+##  Assignment Scope
 
 ### Implemented
 
@@ -598,7 +598,7 @@ The implementation remains focused on the requested **1Fi Marketplace** function
 
 ---
 
-## 🧠 Engineering Decisions
+## Engineering Decisions
 
 ### Separation of Data and UI
 
@@ -634,7 +634,7 @@ Loading, error and empty states are explicitly handled so that the application d
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 If this project were extended into a production marketplace, potential improvements could include:
 
@@ -692,7 +692,7 @@ As the application grows, a dedicated state-management solution could be introdu
 
 ---
 
-## 📸 Application Flow
+##  Application Flow
 
 ```text
 ┌──────────────────────┐
@@ -752,7 +752,7 @@ As the application grows, a dedicated state-management solution could be introdu
 
 ---
 
-## 📝 Assignment Notes
+## Assignment Notes
 
 This project was developed specifically around the Marketplace requirements of the 1Fi SDE Intern assignment.
 
@@ -773,7 +773,7 @@ The implementation avoids adding unnecessary functionality that was not required
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Pujitha Mule**
 
@@ -785,13 +785,13 @@ GitHub:
 
 ---
 
-## 🔗 Repository
+## Repository
 
 [https://github.com/pujitha-mule/1fi_marketplace](https://github.com/pujitha-mule/1fi_marketplace)
 
 ---
 
-## 📄 License
+## License
 
 This project was created for the 1Fi SDE Intern assignment and is intended for evaluation purposes.
 
