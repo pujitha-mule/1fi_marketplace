@@ -43,7 +43,7 @@ export const mockMarketplaceProducts = [
     brand: 'Samsung',
     price: 129999,
     images: [
-      'https://images.unsplash.com/photo-1610792515837-1ae9abbf5bdf?w=400',
+      'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400',  // ✅ Fixed
     ],
     variants: [
       { id: 'v6', name: 'Color', value: 'Titanium Black', available: true },
