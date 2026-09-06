@@ -1,4 +1,3 @@
-
 # 1Fi Marketplace
 
 A React Native / Expo implementation of the **1Fi Marketplace** experience within the Shop section, developed as part of the 1Fi SDE Intern assignment.
@@ -25,6 +24,17 @@ The Marketplace provides users with:
 - Responsive mobile-first UI
 
 The implementation intentionally focuses on the requested **1Fi Marketplace** scope rather than recreating unrelated areas of the 1Fi application.
+
+---
+
+## 🌐 Live Demo
+
+The deployed web version of the 1Fi Marketplace is available here:
+
+**Live Demo:**  
+https://1fi-marketplace--8czwcxxoom.expo.app
+
+The application can be opened directly in a web browser without requiring the development environment.
 
 ---
 
